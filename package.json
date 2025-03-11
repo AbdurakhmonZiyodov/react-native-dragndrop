@@ -1,0 +1,48 @@
+{
+  "name": "test-task-react-native-dragndrop",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
+    "expo": "~51.0.28",
+    "expo-blur": "^13.0.2",
+    "expo-linear-gradient": "^13.0.2",
+    "expo-sqlite": "^14.0.6",
+    "expo-status-bar": "~1.12.1",
+    "lodash": "^4.17.21",
+    "mobx": "^6.13.3",
+    "mobx-react-lite": "^4.0.7",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-draggable-flatlist": "^4.0.1",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-modal": "^13.0.1",
+    "react-native-paper": "^5.12.5",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-safe-area-context": "4.10.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/lodash": "^4.17.12",
+    "@types/react": "~18.2.45",
+    "ajv": "^8.13.0",
+    "eslint": "8",
+    "eslint-config-expo": "^7.1.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react-hooks": "^5.1.0-beta-04b058868c-20240508",
+    "prettier": "^3.3.3",
+    "typescript": "~5.3.3"
+  },
+  "private": true
+}
